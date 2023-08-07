@@ -34,14 +34,12 @@ It is an online voting system in which, a voter can vote online with two step ve
 # # Algorithms used:
 # # # LBPH Algorithm
 I used the LBPH algorithm for face detection and recognition: The Local Binary Pattern (LBP) texturing operator labels pixels in an image by thresholding each pixel's neighborhood and treating the result as a binary number. We must first train the algorithm. We'll need a dataset containing the faces of the people we wish to recognize. We must also assign each image an ID (which might be a number or a person's name) so that the algorithm can recognize an input image and provide you with output.
-##### Flowchart for LBPH Algorithm
-![image](https://user-images.githubusercontent.com/106246237/170875535-d2a5745f-157e-4bbb-846b-a38ced3504c5.png)
+
 
 
 # # # Haar-cascade Algorithm
 Rather than using the pixel's intensity data, it alters the contrast between neighboring rectangular groupings of pixels. The contrast variances between pixel groupings are used to estimate the relative bright and dark areas. Two or three neighboring groups with relative contrast variance constitute a Haar-like characteristic. Having an accuracy of 95%, the algorithm is extremely successful in face detection. Haar classifier cascades need to be trained for detection of facial features of human i.e., mouth, eyes, nose etc.
-##### Flowchart for Haar-cascade Algorithm
-![image](https://user-images.githubusercontent.com/106246237/170875641-f25afa92-880b-4d47-85d6-e7dfe6ea2759.png)
+
 
 ## Link to PPT
 https://docs.google.com/presentation/d/1X2DS4oQx7-ns9vRKsWSMlbcEgEavgOVP/edit?usp=sharing&ouid=103275090668226320175&rtpof=true&sd=true
